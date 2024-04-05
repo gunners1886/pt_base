@@ -1,0 +1,2 @@
+Pamameter类: <class 'torch.nn.parameter.Parameter'>
+https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-nn/

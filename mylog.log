@@ -1,0 +1,13 @@
+2022-09-29 11:10:33,781 - ERROR - |Unexpected exception! Using a target size (torch.Size([3])) that is different to the input size (torch.Size([4, 3])) is deprecated. Please ensure they have the same size.
+Traceback (most recent call last):
+  File "/Users/bytedance/Dropbox/code/pt_base/test_loss_fun.py", line 99, in main
+    nn_bce_loss()
+  File "/Users/bytedance/Dropbox/code/pt_base/test_loss_fun.py", line 44, in nn_bce_loss
+    output = bce(sig(input), target)
+  File "/Users/bytedance/software_install/anaconda3/envs/pytorch03_haggs/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/Users/bytedance/software_install/anaconda3/envs/pytorch03_haggs/lib/python3.7/site-packages/torch/nn/modules/loss.py", line 530, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "/Users/bytedance/software_install/anaconda3/envs/pytorch03_haggs/lib/python3.7/site-packages/torch/nn/functional.py", line 2519, in binary_cross_entropy
+    "Please ensure they have the same size.".format(target.size(), input.size()))
+ValueError: Using a target size (torch.Size([3])) that is different to the input size (torch.Size([4, 3])) is deprecated. Please ensure they have the same size.

@@ -1,0 +1,7 @@
+# 忽略所有常见的压缩文件后缀
+*.{zip,tar,tar.gz,tar.bz2,rar,7z,gz,bz2}
+
+
+# 忽略 data 和 dataset 文件夹
+data/
+dataset/
