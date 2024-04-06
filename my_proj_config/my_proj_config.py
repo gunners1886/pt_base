@@ -25,10 +25,10 @@ import platform
 
 PROJ_ROOT = os.path.join(os.path.abspath(os.path.join((os.path.dirname(__file__)), '..')), '')
 
-IS_UBUNTU = True if platform.linux_distribution()[0] == 'debian' else False
+# IS_UBUNTU = True if platform.linux_distribution()[0] == 'debian' else False
 
 # https://stackoverflow.com/questions/8220108/how-do-i-check-the-operating-system-in-python
-from sys import platform
-IS_MAC = True if platform == "darwin" else False
+# from sys import platform
+# IS_MAC = True if platform == "darwin" else False
 
 IS_PYTHON_3 = (sys.version_info.major == 3)
