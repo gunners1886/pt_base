@@ -1,5 +1,5 @@
-torch>=2.2.2
-torchaudio>=2.2.2
+# torch>=2.2.2
+# torchaudio>=2.2.2
 torchinfo>=1.8.0
-torchvision>=0.17.2
-tqdm>=4.66.2
+# torchvision>=0.17.2
+# tqdm>=4.66.2
